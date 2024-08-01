@@ -542,6 +542,26 @@ footer a:hover {
 
 /* Responsive Design */
 @media only screen and (max-width: 768px) {
+    nav {
+        padding: 10px;
+    }
+
+    .home_info {
+        width: 80%;
+    }
+
+    .home_info > h2 {
+        font-size: 32px;
+    }
+
+    .home_info > p {
+        font-size: 12px;
+    }
+
+    .home_button_container > button {
+        padding: 12px 20px;
+        font-size: 12px;
+    }
     /* Hero Section */
     #section_hero {
         height: auto;
