@@ -577,6 +577,9 @@ footer a:hover {
     }
 
     /* Career Section */
+    #section_career{
+        height:auto;
+    }
     .box_container {
         flex-direction: column;
     }
@@ -589,6 +592,7 @@ footer a:hover {
     /* Care for Us Section */
     #care_for_us {
         flex-direction: column;
+        height:auto;
     }
 
     .care_for_us_first_container, .care_for_us_second_container, .care_for_us_third_container {
