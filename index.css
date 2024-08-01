@@ -544,6 +544,7 @@ footer a:hover {
 @media only screen and (max-width: 768px) {
     nav {
         padding: 10px;
+        width:100%;
     }
 
     .home_info {
@@ -564,7 +565,6 @@ footer a:hover {
     }
     /* Hero Section */
     #section_hero {
-        height: auto;
         padding: 50px 20px;
     }
 
@@ -579,7 +579,6 @@ footer a:hover {
     /* Career Section */
     .box_container {
         flex-direction: column;
-        height: auto;
     }
 
     .box_container > div {
@@ -594,7 +593,6 @@ footer a:hover {
 
     .care_for_us_first_container, .care_for_us_second_container, .care_for_us_third_container {
         width: 80%;
-        height: auto;
         margin: 15px 0;
     }
 
@@ -605,13 +603,11 @@ footer a:hover {
 
     /* Fourth Section */
     #fourth_section {
-        height: auto;
         padding: 50px 20px;
     }
 
     .fourth_section_box_container {
         flex-direction: column;
-        height: auto;
         top: auto;
         position: static;
     }
@@ -625,32 +621,5 @@ footer a:hover {
     .fifth_section_box {
         width: 90%;
         margin: 15px 0;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    /* Adjustments for smaller screens */
-    .hero_text h1 {
-        font-size: 28px;
-    }
-
-    .hero_text p {
-        font-size: 14px;
-    }
-
-    .box_container > div {
-        width: 95%;
-    }
-
-    .care_for_us_first_container, .care_for_us_second_container, .care_for_us_third_container {
-        width: 95%;
-    }
-
-    .fourth_section_box_container > div {
-        width: 95%;
-    }
-
-    .fifth_section_box {
-        width: 95%;
     }
 }
